@@ -1,15 +1,21 @@
 [tool.poetry]
-name = "ctktablerowselector"
-version = "0.1.0"
+name = "CTkTableRowSelector"
+version = "1.0.0"
 description = "Wrapper class around CTkTable to let users select rows"
 authors = ["CallMePixelMan"]
+license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "CTkTableRowSelector" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 ctktable = "^0.7"
-customtkinter = "^5.2.0"
-darkdetect = "^0.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
 
 [tool.pytest.ini_options]
 addopts = "--cov=CTkTableRowSelector --cov-report term-missing"
@@ -22,10 +28,6 @@ filterwarnings = [
 omit=[
     "__main__.py"
 ]
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^7.4.0"
-pytest-cov = "^4.1.0"
 
 [build-system]
 requires = ["poetry-core"]

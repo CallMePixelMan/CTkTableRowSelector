@@ -1,5 +1,8 @@
 # CTkTableRowSelector
-A small and stable extension above CTkTable to let users select rows.
+Wrapper class around CTkTable to let users select rows.
+![PyPI](https://img.shields.io/pypi/v/ctktablerowselector)
+![PyPI - License](https://img.shields.io/pypi/l/ctktablerowselector)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Features
 - [x] Plug&Play: No shady attributes, create an instance and get the values you need.
