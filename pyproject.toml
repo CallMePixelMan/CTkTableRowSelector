@@ -5,6 +5,7 @@ description = "Wrapper class around CTkTable to let users select rows"
 authors = ["CallMePixelMan"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/CallMePixelMan/CTkTableRowSelector"
 packages = [
     { include = "CTkTableRowSelector" }
 ]
